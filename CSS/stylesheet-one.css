@@ -1,0 +1,58 @@
+body {
+    background-color: aliceblue;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family:
+            "Calibri", "sans-serif", "times new roman";
+}
+
+p {
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+* {
+    box-sizing: content-box;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 1vw;
+    font-family:
+            "Calibri", "sans-serif", "times new roman";
+    font-size: 1em;
+}
+
+.col-small {
+    width: 30%;
+    padding-bottom: 100px;
+}
+
+.padding {
+    padding-bottom: 100px;
+}
+
+
+
